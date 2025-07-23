@@ -57,7 +57,7 @@ OPEN_ROUTER_API_KEY=your_openrouter_api_key
 Run once to index the code:
 
 ```bash
-python main.py
+python ingest.py
 ```
 
 It will:
@@ -72,7 +72,7 @@ It will:
 After building the index, you can ask questions interactively:
 
 ```bash
-python main.py
+python query.py
 ```
 
 Example prompts:
